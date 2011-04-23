@@ -1,4 +1,4 @@
-1303540989
+1303541132
 Application	/Users/ambrosep/rails_projects/sample_app/config/application.rb	  class Application 
 ApplicationController	/Users/ambrosep/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/Users/ambrosep/rails_projects/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
