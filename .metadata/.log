@@ -1,0 +1,108 @@
+!SESSION 2011-04-23 10:22:28.359 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_24
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/ambrosep/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -data /Users/ambrosep/rails_projects/sample_app -keyring /Users/ambrosep/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2011-04-23 10:22:38.455
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.aptana.scripting 1 0 2011-04-23 10:22:42.496
+!MESSAGE /Applications/Aptana Studio 3/configuration/org.eclipse.osgi/bundles/625/1/.cp/bundles/bundle-development.ruble/commands/convert_bundle.rb is newer than cache file, invalidating cache
+
+!ENTRY com.aptana.scripting 1 0 2011-04-23 10:22:42.538
+!MESSAGE /Applications/Aptana Studio 3/configuration/org.eclipse.osgi/bundles/625/1/.cp/bundles/bundle-development.ruble/commands/install_bundle.rb is newer than cache file, invalidating cache
+
+!ENTRY com.aptana.scripting 4 0 2011-04-23 10:22:53.348
+!MESSAGE special characters are not allowed
+!STACK 0
+unacceptable character #FFFD special characters are not allowed
+in "<reader>", position 55
+	at org.yaml.snakeyaml.reader.StreamReader.checkPrintable(StreamReader.java:68)
+	at org.yaml.snakeyaml.reader.StreamReader.update(StreamReader.java:159)
+	at org.yaml.snakeyaml.reader.StreamReader.peek(StreamReader.java:117)
+	at org.yaml.snakeyaml.reader.StreamReader.peek(StreamReader.java:106)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanToNextToken(ScannerImpl.java:964)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:237)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:183)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseImplicitDocumentStart.produce(ParserImpl.java:200)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:163)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:104)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:124)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:264)
+	at com.aptana.scripting.model.BundleCacher.load(BundleCacher.java:205)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:99)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.aptana.scripting 1 0 2011-04-23 10:22:53.379
+!MESSAGE Due to error loading YAML, bundle at /Users/ambrosep/Documents/Aptana Rubles/php.ruble will not be loaded from cache
+!SESSION 2011-04-23 10:25:36.404 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_24
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/ambrosep/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -data /Users/ambrosep/rails_projects/sample_app -keyring /Users/ambrosep/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2011-04-23 10:25:45.813
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.aptana.scripting 1 0 2011-04-23 10:25:48.132
+!MESSAGE /Applications/Aptana Studio 3/configuration/org.eclipse.osgi/bundles/625/1/.cp/bundles/bundle-development.ruble/commands/convert_bundle.rb is newer than cache file, invalidating cache
+
+!ENTRY com.aptana.scripting 1 0 2011-04-23 10:25:48.164
+!MESSAGE /Applications/Aptana Studio 3/configuration/org.eclipse.osgi/bundles/625/1/.cp/bundles/bundle-development.ruble/commands/install_bundle.rb is newer than cache file, invalidating cache
+
+!ENTRY com.aptana.scripting 4 0 2011-04-23 10:25:58.598
+!MESSAGE special characters are not allowed
+!STACK 0
+unacceptable character #FFFD special characters are not allowed
+in "<reader>", position 55
+	at org.yaml.snakeyaml.reader.StreamReader.checkPrintable(StreamReader.java:68)
+	at org.yaml.snakeyaml.reader.StreamReader.update(StreamReader.java:159)
+	at org.yaml.snakeyaml.reader.StreamReader.peek(StreamReader.java:117)
+	at org.yaml.snakeyaml.reader.StreamReader.peek(StreamReader.java:106)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanToNextToken(ScannerImpl.java:964)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:237)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:183)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseImplicitDocumentStart.produce(ParserImpl.java:200)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:163)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:104)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:124)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:264)
+	at com.aptana.scripting.model.BundleCacher.load(BundleCacher.java:205)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:99)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.aptana.scripting 1 0 2011-04-23 10:25:58.629
+!MESSAGE Due to error loading YAML, bundle at /Users/ambrosep/Documents/Aptana Rubles/php.ruble will not be loaded from cache
+!SESSION 2011-04-23 10:34:39.018 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_24
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/ambrosep/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/ambrosep/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2011-04-23 10:34:55.494
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2011-04-23 10:34:58.989
+!MESSAGE No repository found at file:/Applications/Aptana%20Studio%203/configuration/org.eclipse.osgi/bundles/136/data/listener_1925729951/.
+
+!ENTRY com.aptana.scripting 4 0 2011-04-23 10:35:18.364
+!MESSAGE special characters are not allowed
+!STACK 0
+unacceptable character '�' (0xFFFD) special characters are not allowed
+in "<reader>", position 55
+	at org.yaml.snakeyaml.reader.StreamReader.checkPrintable(StreamReader.java:98)
+	at org.yaml.snakeyaml.reader.StreamReader.update(StreamReader.java:191)
+	at org.yaml.snakeyaml.reader.StreamReader.<init>(StreamReader.java:63)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:290)
+	at com.aptana.scripting.model.BundleCacher.load(BundleCacher.java:209)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:99)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
